@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="fleet_costs_report_view_search" model="ir.ui.view">
+        <field name="name">fleet.vehicle.cost.view.search</field>
+        <field name="model">fleet.vehicle.cost.report</field>
+        <field name="inherit_id" ref="fleet.fleet_costs_report_view_search"/>
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="cost_description" filter_domain="[('name', 'ilike', self)]"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="fleet_vechicle_costs_report_view_tree" model="ir.ui.view">
+        <field name="name">fleet.vehicle.cost.report.view.tree</field>
+        <field name="model">fleet.vehicle.cost.report</field>
+        <field name="inherit_id" ref="fleet.fleet_vechicle_costs_report_view_tree"/>
+        <field name="arch" type="xml">
+            <field name="cost" position="after">
+                <field name="cost_description" optional="show"/>
+            </field>
+        </field>
+    </record>
+</odoo>
