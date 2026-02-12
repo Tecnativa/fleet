@@ -48,7 +48,7 @@ for vehicle inspections.
 Known issues / Roadmap
 ======================
 
-- Add Inspection Templates by Vehicle Model
+-  Add Inspection Templates by Vehicle Model
 
 Bug Tracker
 ===========
@@ -71,14 +71,14 @@ Authors
 Contributors
 ------------
 
-- Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+-  Marcel Savegnago <marcel.savegnago@escodoo.com.br>
 
 Other credits
 -------------
 
 The development of this module has been financially supported by:
 
-- Escodoo - https://www.escodoo.com.br
+-  Escodoo - https://www.escodoo.com.br
 
 Maintainers
 -----------
